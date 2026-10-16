@@ -1,0 +1,50 @@
+:root {
+    --background-color: rgb(35 , 35 , 35);
+    --border-color: rgb(252, 152, 152);
+    --title-color: rgb(252, 152, 152);
+    --info-color: rgb(251, 210, 210);
+    --font-size: 16px;
+}
+
+.dress-card {
+    font-size: var(--font-size);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background-color: var(--background-color);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.dress-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.dress-card h3 {
+    color: var(--title-color);
+    font-size: 1.5em;
+}
+
+.dress-card .info {
+    display: flex;
+    color: var(--info-color);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.info span {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.color-block {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    margin: 10px auto;
+}

@@ -1,0 +1,11 @@
+
+.search-bar {
+    background-color: white;
+    color: black;
+    width: 75%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(145, 0, 0);
+}

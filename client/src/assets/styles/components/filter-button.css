@@ -1,0 +1,23 @@
+:root {
+    --bg-button-clicked: rgb(35, 35, 35);
+    --text-color-clicked: rgb(252, 152, 152);
+    --bg-button-not-clicked: rgb(222, 222, 222);
+    --text-color-not-clicked: rgb(0 , 0 , 0);
+    --font-size-button: 16px;
+}
+
+.filter-button {
+    background-color: var(--bg-button-not-clicked);
+    color: var(--text-color-not-clicked);
+    border-radius: 20px;
+    font-size: var(--font-size-button);
+    padding: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.filter-button--selected {
+    background-color: var(--bg-button-clicked);
+    color: var(--text-color-clicked);
+}
